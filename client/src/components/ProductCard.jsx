@@ -1,11 +1,12 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
 
+// Receives product data as props
 const ProductCard = ({ product }) => {
   const { addToCart } = useApp();
 
   const handleAddToCart = () => {
-    addToCart(product);
+    addToCart(product); // Uses global addToCart function (context usage)
   };
 
   return (

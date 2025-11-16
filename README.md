@@ -38,6 +38,16 @@ Learning Platform: Comprehensive example of modern web application architecture
 
 Portfolio Centerpiece: Demonstrates end-to-end development capabilities
 
+## 👨‍💼 Architecture Overview
+
+Frontend: React with Context API for state management
+
+Backend: Node.js + Express REST API
+
+Database: MongoDB with Mongoose ODM
+
+Authentication: JWT-based secure authentication
+
 ## 🛠️ Tech Stack
 **Frontend
 

@@ -7,7 +7,7 @@ require('dotenv').config();
 
 const app = express();
 
-// Middleware
+// Middleware - CORS for cross-origin requests, express.json() for parsing
 app.use(cors());
 app.use(express.json()); // Parse JSON bodies
 

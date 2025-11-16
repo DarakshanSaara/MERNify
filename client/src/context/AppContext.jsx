@@ -1,6 +1,11 @@
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
 import axios from 'axios';
 
+// useReducer vs useState: Better for complex state with multiple actions
+// Local Storage: Persist cart and authentication token
+// Action Creators: Encapsulate API calls and state updates
+// Global State: User, cart, products accessible across components
+
 // Create Context
 const AppContext = createContext();
 
